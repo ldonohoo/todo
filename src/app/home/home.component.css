@@ -1,0 +1,20 @@
+h2 {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.list-headers-button {
+    border-radius: 0.5rem;
+    background-color: rgb(94, 166, 224);
+    height: 2rem;
+    width: 30rem;
+    padding: 10px;
+}
+
+.list-headers-button:hover {
+    background-color: rgb(46, 82, 112);
+    color: white;
+}
