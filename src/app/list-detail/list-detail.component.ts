@@ -14,6 +14,7 @@ import { ListItem } from '../list-item';
 export class ListDetailComponent {
   listItem: ListItem = {
     id: 1,
+    listId: 0,
     description: 'first task',
     completed: false,
     priority: 1
