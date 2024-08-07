@@ -28,6 +28,9 @@ export class ListItemsService {
       completed: false
     }
   ]
-  constructor() { }
-  getAllListItems(listId: number)
+  getAllListItems(listId: number): ListItem[] {
+    return this.listItems.filter((listItem) => 
+      listItem.listId == listId 
+    );
+  }
 }

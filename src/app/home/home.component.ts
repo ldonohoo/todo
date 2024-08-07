@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AllListsComponent } from '../all-lists/all-lists.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',

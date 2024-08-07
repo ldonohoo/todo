@@ -1,0 +1,21 @@
+.header-line {
+    display: flex;
+    width: 100%;
+}
+
+.header-description {
+    display: inline-block;
+    background-color: bisque;
+    border: .1rem solid black;
+    border-radius: 0.5rem;
+    width: 70%;
+    height: 2rem;
+    padding: .2rem;
+}
+
+.header-star {
+    display: inline-block;
+    color: rgb(220, 178, 26);
+    width: 2rem;
+    height: 2rem;
+}
