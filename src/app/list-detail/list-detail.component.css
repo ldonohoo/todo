@@ -1,0 +1,27 @@
+.items-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.labels {
+    display: flex;
+}
+
+.label {
+    font-size: smaller;
+}
+
+.label.completed {
+    display: inline-block;
+    padding-left: .5%; 
+}
+
+.label.description {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.label.priority {
+    display: inline-block;
+    padding-left: 48vw;
+}

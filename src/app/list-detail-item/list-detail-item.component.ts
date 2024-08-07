@@ -7,12 +7,17 @@ import { ListItem } from '../list-item';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <h4>{{item.description}}</h4>
-    <p>{{item.priority}}</p>
-    <div *ngIf="item.completed; else notCompleted">✅
+    <div>
+    <div class="item-completed"
+         *ngIf="item.completed; else notCompleted">✅
+      </div>
+        <ng-template #notCompleted>
+          <div class="item-completed">🟩</div>
+        </ng-template>
+      <div class="item-description">{{item.description}}</div>
+      <div class="item-priority">{{item.priority}}</div>
+
     </div>
-    <ng-template #notCompleted>🟩
-    </ng-template>
   `,
   styleUrl: './list-detail-item.component.css'
 })
